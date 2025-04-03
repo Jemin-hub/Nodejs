@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script>
+        function fun(){
+         let obj='{"Name":"kukadiya","Date":"2006-04-20","age":"18"}'
+         console.log(obj)
+         x=JSON.parse(obj);
+         console.log(x.Date);
+         a=new Date(x.Date);
+         console.log(a);
+        }
+
+        </script>
+    </head>
+    <body>
+        <button type="submit" onclick="fun()">time</button>
+    </body>
+</html>

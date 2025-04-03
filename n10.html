@@ -1,0 +1,30 @@
+<!-- wite add task three button incress to increes the font it shiuld stop incressing when the font size rich to 200 px or stop buutton is click 
+ decress button to decreas the fomnt it shoud stop ecreesing the font hen the font size rich to 20px or stop button is click 
+ stop button to stop incresing or decresing fomnt  increasing and decrising nterval is  a100 milsecond default font suze 50 px -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <p id="inreasbutton" style="font-size: 50px;"> Helllo </p>
+    <button onclick="increas()">increas</button>
+    <button onclick="decres()">decres</button>
+    <button onclick="stop()">stop</button>
+    <script>
+        function increas(){
+            document.getElementById("p1").style.fontSize=font+"px";
+        }
+        function fun1(){
+            setInterval(function fun(){
+                if(font>50){
+                    fun(font++);
+                }
+            },10)
+        }
+        
+    </script>
+ </body>
+ </html>
